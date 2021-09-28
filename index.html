@@ -1,137 +1,36 @@
-      <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
       <style type="text/css" media="screen">
-  .gr_custom_container_1632871211 {
-    /* customize your Goodreads widget container here*/
-    border: 1px solid gray;
-    border-radius:10px;
-    padding: 10px 5px 10px 5px;
-    background-color: #FFFFFF;
-    color: #000000;
-    width: 300px
-  }
-  .gr_custom_header_1632871211 {
-    /* customize your Goodreads header here*/
-    border-bottom: 1px solid gray;
-    width: 100%;
-    margin-bottom: 5px;
-    text-align: center;
-    font-size: 150%
-  }
-  .gr_custom_each_container_1632871211 {
-    /* customize each individual book container here */
-    width: 100%;
-    clear: both;
-    margin-bottom: 10px;
-    overflow: auto;
-    padding-bottom: 4px;
-    border-bottom: 1px solid #aaa;
-  }
-  .gr_custom_book_container_1632871211 {
-    /* customize your book covers here */
-    overflow: hidden;
-    height: 160px;
-      float: left;
-      margin-right: 4px;
-      width: 98px;
-  }
-  .gr_custom_author_1632871211 {
-    /* customize your author names here */
-    font-size: 10px;
-  }
-  .gr_custom_tags_1632871211 {
-    /* customize your tags here */
-    font-size: 10px;
-    color: gray;
-  }
-  .gr_custom_rating_1632871211 {
-    /* customize your rating stars here */
-    float: right;
-  }
-</style>
+        .gr_grid_container {
+          /* customize grid container div here. eg: width: 500px; */
+        }
 
-      <div id="gr_custom_widget_1632871211">
-          <div class="gr_custom_container_1632871211">
-    <h2 class="gr_custom_header_1632871211">
-    <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/11313766-ankit?shelf=currently-reading&amp;utm_medium=api&amp;utm_source=custom_widget">Ankit&#39;s bookshelf: currently-reading</a>
+        .gr_grid_book_container {
+          /* customize book cover container div here */
+          float: left;
+          width: 98px;
+          height: 160px;
+          padding: 0px 0px;
+          overflow: hidden;
+        }
+      </style>
+      <div id="gr_grid_widget_1632871903">
+        <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
+            <h2>
+      <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/11313766-ankit?shelf=currently-reading&utm_medium=api&utm_source=grid_widget">Ankit's currently-reading book montage</a>
     </h2>
-      <div class="gr_custom_each_container_1632871211">
-          <div class="gr_custom_book_container_1632871211">
-            <a title="Tools and Weapons: The Promise and the Peril of the Digital Age" rel="nofollow" href="https://www.goodreads.com/review/show/4262150657?utm_medium=api&amp;utm_source=custom_widget"><img alt="Tools and Weapons: The Promise and the Peril of the Digital Age" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1556243936l/44334073._SX98_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_1632871211">
-            <span class=" staticStars notranslate"><img src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_1632871211">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/4262150657?utm_medium=api&amp;utm_source=custom_widget">Tools and Weapons: The Promise and the Peril of the Digital Age</a>
-          </div>
-          <div class="gr_custom_author_1632871211">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/19277463.Brad_Smith">Brad   Smith</a>
-          </div>
-      </div>
-      <div class="gr_custom_each_container_1632871211">
-          <div class="gr_custom_book_container_1632871211">
-            <a title="How to Avoid a Climate Disaster: The Solutions We Have and the Breakthroughs We Need" rel="nofollow" href="https://www.goodreads.com/review/show/4125623261?utm_medium=api&amp;utm_source=custom_widget"><img alt="How to Avoid a Climate Disaster: The Solutions We Have and the Breakthroughs We Need" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609355352l/52275335._SX98_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_1632871211">
-            <span class=" staticStars notranslate"><img src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_1632871211">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/4125623261?utm_medium=api&amp;utm_source=custom_widget">How to Avoid a Climate Disaster: The Solutions We Have and the Breakthroughs We Need</a>
-          </div>
-          <div class="gr_custom_author_1632871211">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/23470.Bill_Gates">Bill  Gates</a>
-          </div>
-      </div>
-      <div class="gr_custom_each_container_1632871211">
-          <div class="gr_custom_book_container_1632871211">
-            <a title="The Greatness Guide: One of the World's Most Successful Coaches Shares His Secrets for Personal and Business Mastery" rel="nofollow" href="https://www.goodreads.com/review/show/4113231417?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Greatness Guide: One of the World's Most Successful Coaches Shares His Secrets for Personal and Business Mastery" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494964205l/11790297._SX98_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_1632871211">
-            <span class=" staticStars notranslate"><img src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_1632871211">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/4113231417?utm_medium=api&amp;utm_source=custom_widget">The Greatness Guide: One of the World's Most Successful Coaches Shares His Secrets for Personal and Business Mastery</a>
-          </div>
-          <div class="gr_custom_author_1632871211">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/24678.Robin_S_Sharma">Robin S. Sharma</a>
-          </div>
-      </div>
-      <div class="gr_custom_each_container_1632871211">
-          <div class="gr_custom_book_container_1632871211">
-            <a title="The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness" rel="nofollow" href="https://www.goodreads.com/review/show/3865102526?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581402212l/51156314._SX98_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_1632871211">
-            <span class=" staticStars notranslate"><img src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_1632871211">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/3865102526?utm_medium=api&amp;utm_source=custom_widget">The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness</a>
-          </div>
-          <div class="gr_custom_author_1632871211">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/7499284.Morgan_Housel">Morgan Housel</a>
-          </div>
-      </div>
-      <div class="gr_custom_each_container_1632871211">
-          <div class="gr_custom_book_container_1632871211">
-            <a title="Think Again: The Power of Knowing What You Don't Know" rel="nofollow" href="https://www.goodreads.com/review/show/3865102108?utm_medium=api&amp;utm_source=custom_widget"><img alt="Think Again: The Power of Knowing What You Don't Know" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602574232l/55539565._SX98_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_1632871211">
-            <span class=" staticStars notranslate"><img src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_1632871211">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/3865102108?utm_medium=api&amp;utm_source=custom_widget">Think Again: The Power of Knowing What You Don't Know</a>
-          </div>
-          <div class="gr_custom_author_1632871211">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/6583155.Adam_M_Grant">Adam M. Grant</a>
-          </div>
-      </div>
-  <br style="clear: both"/>
-  <center>
-    <a rel="nofollow" href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0" src="https://s.gr-assets.com/images/widget/widget_logo.gif" /></a>
-  </center>
-  <noscript>
-    Share <a rel="nofollow" href="https://www.goodreads.com/">book reviews</a> and ratings with Ankit, and even join a <a rel="nofollow" href="https://www.goodreads.com/group">book club</a> on Goodreads.
-  </noscript>
+  <div class="gr_grid_container">
+    <div class="gr_grid_book_container"><a title="Tools and Weapons: The Promise and the Peril of the Digital Age" rel="nofollow" href="https://www.goodreads.com/book/show/44334073-tools-and-weapons"><img alt="Tools and Weapons: The Promise and the Peril of the Digital Age" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1556243936l/44334073._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="How to Avoid a Climate Disaster: The Solutions We Have and the Breakthroughs We Need" rel="nofollow" href="https://www.goodreads.com/book/show/52275335-how-to-avoid-a-climate-disaster"><img alt="How to Avoid a Climate Disaster: The Solutions We Have and the Breakthroughs We Need" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1609355352l/52275335._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="The Greatness Guide: One of the World's Most Successful Coaches Shares His Secrets for Personal and Business Mastery" rel="nofollow" href="https://www.goodreads.com/book/show/11790297-the-greatness-guide"><img alt="The Greatness Guide: One of the World's Most Successful Coaches Shares His Secrets for Personal and Business Mastery" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494964205l/11790297._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness" rel="nofollow" href="https://www.goodreads.com/book/show/51156314-the-psychology-of-money"><img alt="The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581402212l/51156314._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Think Again: The Power of Knowing What You Don't Know" rel="nofollow" href="https://www.goodreads.com/book/show/55539565-think-again"><img alt="Think Again: The Power of Knowing What You Don't Know" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602574232l/55539565._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="The Basics of Bitcoins and Blockchains: An Introduction to Cryptocurrencies and the Technology that Powers Them" rel="nofollow" href="https://www.goodreads.com/book/show/40541157-the-basics-of-bitcoins-and-blockchains"><img alt="The Basics of Bitcoins and Blockchains: An Introduction to Cryptocurrencies and the Technology that Powers Them" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529163443l/40541157._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets" rel="nofollow" href="https://www.goodreads.com/book/show/8536015-fooled-by-randomness"><img alt="Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328339070l/8536015._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Monetizing Innovation: How Smart Companies Design the Product Around the Price" rel="nofollow" href="https://www.goodreads.com/book/show/30121516-monetizing-innovation"><img alt="Monetizing Innovation: How Smart Companies Design the Product Around the Price" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462533054l/30121516._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Trillion Dollar Coach: The Leadership Handbook of Silicon Valley’s Bill Campbell" rel="nofollow" href="https://www.goodreads.com/book/show/43445551-trillion-dollar-coach"><img alt="Trillion Dollar Coach: The Leadership Handbook of Silicon Valley’s Bill Campbell" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573686371l/43445551._SX98_.jpg" /></a></div>
+    <div class="gr_grid_book_container"><a title="Let's Talk Money" rel="nofollow" href="https://www.goodreads.com/book/show/40499078-let-s-talk-money"><img alt="Let's Talk Money" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1528548080l/40499078._SX98_.jpg" /></a></div>
+    <br style="clear: both"/><br/><a class="gr_grid_branding" style="font-size: .9em; color: #382110; text-decoration: none; float: right; clear: both" rel="nofollow" href="https://www.goodreads.com/user/show/11313766-ankit">Ankit's favorite books »</a>
+  <noscript><br/>Share <a rel="nofollow" href="/">book reviews</a> and ratings with Ankit, and even join a <a rel="nofollow" href="/group">book club</a> on Goodreads.</noscript>
   </div>
 
       </div>
-      <script src="https://www.goodreads.com/review/custom_widget/11313766.Ankit's%20bookshelf:%20currently-reading?cover_position=left&cover_size=medium&num_books=5&order=d&shelf=currently-reading&show_author=1&show_cover=1&show_rating=1&show_review=0&show_tags=0&show_title=1&sort=date_added&widget_bg_color=FFFFFF&widget_bg_transparent=&widget_border_width=1&widget_id=1632871211&widget_text_color=000000&widget_title_size=large&widget_width=medium" type="text/javascript" charset="utf-8"></script>
+      <script src="https://www.goodreads.com/review/grid_widget/11313766.Ankit's%20currently-reading%20book%20montage?cover_size=medium&hide_link=&hide_title=&num_books=30&order=d&shelf=currently-reading&sort=date_added&widget_id=1632871903" type="text/javascript" charset="utf-8"></script>
